@@ -1258,8 +1258,9 @@ audio {
 .control-panel {
 	position: fixed;
 	bottom: 0;
-	padding:10px 0px 10px 0px;
-}
+	padding: 10px 0px 10px 0px;
+	transform: translateY(-20px); /* Moves it up by 20px */
+  }
 #play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
 	display: none;
 }
@@ -1299,6 +1300,18 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
+
+
+	.navbar-fixed-bottom {
+		position: fixed;
+		bottom: 80px; /* Adjust this value to move it up */
+		left: 0;
+		width: 100%; /* Keep the navbar spanning the full width */
+		padding: 10px 0; /* Optional: Padding for buttons */
+		background: inherit; /* Ensures background remains consistent */
+	  }
+	  
+	  
 
 
 
